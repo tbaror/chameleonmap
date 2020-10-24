@@ -7,4 +7,4 @@ from django.contrib.auth.views import LoginView
 
 class LoginUsers(LoginView):
     
-    template_name =
+    template_name = 'login.html'
